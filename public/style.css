@@ -1,0 +1,72 @@
+body{
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    height: 542px;
+}
+.Main_div{
+   text-align: center; 
+}
+.inner_div{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: black;
+    font-weight: 800;
+    font-size: 60px;
+    font-family: cursive;
+    text-align: center;
+    
+  }
+  #app{
+    color: #f57f17;
+    font-weight: bold;
+  }
+.list_div{
+    padding-top: 20px;
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+  
+}
+.list{
+    width: 100%;
+}
+.li_maindiv{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.btn {
+    background-color: yellow;
+    margin: 5px;
+   
+    
+}
+.btns {
+  
+    margin: 5px;
+   
+    
+}
+.spanText{
+    display: inline-block;
+}
+.Footer {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    background-color: #373A36;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+}
